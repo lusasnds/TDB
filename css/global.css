@@ -1,0 +1,23 @@
+@import url('./style.css');
+
+:root{
+    --text: #EDF1F7;
+    --red: #C51212;
+    --blue: #0041C2;
+    --green: #14B02D;
+    --yellow: #ffc12b;
+    --orange: #FFA500;
+}
+  
+body, button, a{
+    color: var(--text);
+    font: 400 1rem "Mukta", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+  
+button:hover{
+    cursor: pointer;
+}
